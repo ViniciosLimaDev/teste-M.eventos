@@ -1,0 +1,167 @@
+            /*bloco1*/
+            
+            div#bloco1 {
+                background: #240048;
+                color: #fff;
+                border-radius: 10% 10%/ 0px 0px 25px 25px;
+                height: 290px;
+            }
+            
+            .row .col-sm-3 {
+                display: flex;
+            }
+            
+            .col-sm-3 p {
+                text-align: center;
+                height: 50px;
+                width: 80px;
+                margin: 10px;
+                font-size: 10pt;
+            }
+            
+            .col-sm-3 .even {
+                display: block;
+                border: none;
+                box-shadow: none;
+                margin-top: 230px;
+            }
+            
+            div#dia {
+                position: absolute;
+                margin-left: -2px;
+                margin-top: 150px;
+            }
+            
+            #dia p:hover {
+                border: solid 1px #663a7e;
+                box-shadow: 0 0 0.2em;
+            }
+            
+            div#enven {
+                position: absolute;
+                margin-left: -20px;
+            }
+            
+            div#mes {
+                position: absolute;
+                padding-left: 290px;
+            }
+            
+            div#logo {
+                display: block;
+                position: absolute;
+                height: 50%;
+                width: 50%;
+                margin-left: 135px;
+                margin-top: 60px;
+            }
+            /*bloco2*/
+            
+            .container2 {
+                border: solid 1px #240048;
+                border-radius: 10px;
+                margin: 40px 20px 40px 20px;
+            }
+            
+            .container2 img {
+                width: 50px;
+                height: 50px;
+                border-radius: 25px 25px;
+                margin-left: 20px;
+            }
+            
+            .container2 #img2 {
+                display: flex;
+                position: static;
+                margin-left: -39px;
+                margin-top: 5px;
+            }
+            
+            .back {
+                background: #240048;
+                border-radius: 25px 25px;
+                margin-left: -13px;
+                width: 19px;
+                height: 17px;
+            }
+            
+            div.back .p2 {
+                font-size: 8pt;
+                color: #fff;
+                margin-top: -15px;
+                padding-left: 2px;
+            }
+            
+            div.col-sm-12 {
+                display: flex;
+                padding: 10px 20px 10px 0px;
+                position: static;
+            }
+            
+            div.col-sm-12 p {
+                font-size: 10pt;
+                display: flex;
+                color: #240048;
+                padding-left: 30px;
+                padding-top: 15px;
+            }
+            
+            div.col-sm-12 i {
+                padding-left: 50px;
+                padding-top: 5px;
+                color: #240048;
+            }
+            /*navbar*/
+            
+            div.col-2 img {
+                width: 25px;
+                height: 25px;
+                border-radius: 25px 25px;
+            }
+            
+            nav.nav {
+                display: flex;
+                background: #240048;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                border-radius: 5% 5%/ 25px 25px 0px 0px;
+            }
+            
+            nav.nav .col-2 {
+                padding: 10px 32px 10px 32px;
+                color: #fff;
+            }
+            
+            nav.nav .col-2:hover {
+                color: #b983b0;
+            }
+            
+            div#plus {
+                position: relative;
+                border-radius: 40px 40px 40px 40px;
+                box-shadow: 0 0 1em #000000bb;
+                margin-left: 20px;
+                padding-left: 25px;
+                top: -20px;
+                background-color: #240048;
+            }
+            
+            @media only screen and (max-width: 320px) {
+                nav.nav .col-2 {
+                    padding: 10px 40px 10px 17px;
+                }
+                div#mes {
+                    padding-left: 255px;
+                }
+                div.col-sm-12 {
+                    padding: 19px 16px 1px 0px;
+                }
+                div#plus {
+                    border-radius: 100%;
+                    padding: 10px 20px;
+                }
+                div#logo {
+                    margin-left: 110px;
+                }
+            }
